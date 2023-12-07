@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citilab Results Telegram Bot", "Citilab Results Telegram Bot\Citilab Results Telegram Bot.csproj", "{0E7E849A-6BAD-4709-B4D4-993B3F7F7B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7E849A-6BAD-4709-B4D4-993B3F7F7B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7E849A-6BAD-4709-B4D4-993B3F7F7B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7E849A-6BAD-4709-B4D4-993B3F7F7B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7E849A-6BAD-4709-B4D4-993B3F7F7B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
