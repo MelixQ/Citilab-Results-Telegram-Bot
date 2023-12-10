@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Citilab_Results_Telegram_Bot;
 
-public static class AccessToken
+public class AccessToken
 {
     public static string Token { get; private set; } = GetAccessToken();
     

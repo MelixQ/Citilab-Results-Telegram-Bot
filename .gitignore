@@ -483,5 +483,7 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 
-# Access Token Credentials
+# Personal information and testing files
 accessInformation.json
+ClientHelper.cs
+JS Snippets.txt
