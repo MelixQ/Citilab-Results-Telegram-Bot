@@ -185,7 +185,8 @@ async Task BotOnCallbackQueryReceived(CallbackQuery callbackQuery, CancellationT
             cancellationToken: cancellationToken);
         
         Console.WriteLine("IM HERE STARTING TO DOWNLOAD");
-        var path = await WebDriver.GetResultsFromCitilabAsync(ClientHelper.GetTestClient());
+        var path = await Task.Run(() => WebDriver.GetResultsFromCitilab(ClientHelper.GetTestClient()));
+        //var path = await WebDriver.GetResultsFromCitilabAsync(ClientHelper.GetTestClient()));
         Console.WriteLine("IM HERE AFTER FILE WAS DOWNLOADED SUCCESSFULLY");
         await SendResultsToUserAsync(path);
         return;
